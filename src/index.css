@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+
+  background-color: beige;
+  padding: 0;
+}
+
+@page {
+  size: auto;
+  margin: 0;
+}
+@print {
+  @page :footer {
+    display: none;
+  }
+
+  @page :header {
+    display: none;
+  }
+}
